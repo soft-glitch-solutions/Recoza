@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "218277147734",
+    "project_id": "recoza-rsa",
+    "storage_bucket": "recoza-rsa.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:218277147734:android:c02adb2b2e880473e537f7",
+        "android_client_info": {
+          "package_name": "com.example.myapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCcjxILC7Up_SZ1W3uTTdVsGyoQL5tvhw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
