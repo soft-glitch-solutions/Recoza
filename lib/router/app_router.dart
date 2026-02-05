@@ -3,6 +3,8 @@ import 'package:go_router/go_router.dart';
 import 'package:myapp/screens/auth/login_screen.dart';
 import 'package:myapp/screens/auth/signup_screen.dart';
 import 'package:myapp/screens/main_screen.dart';
+import 'package:myapp/screens/profile/privacy_policy_screen.dart';
+import 'package:myapp/screens/profile/terms_screen.dart';
 import 'package:myapp/services/auth_service.dart';
 
 class AppRouter {
@@ -26,11 +28,11 @@ class AppRouter {
       ),
       GoRoute(
         path: '/privacy',
-        builder: (context, state) => const Scaffold(body: Center(child: Text('Privacy Policy Screen'))),
+        builder: (context, state) => const PrivacyPolicyScreen(),
       ),
       GoRoute(
         path: '/terms',
-        builder: (context, state) => const Scaffold(body: Center(child: Text('Terms of Service Screen'))),
+        builder: (context, state) => const TermsScreen(),
       ),
     ],
     redirect: (context, state) {
